@@ -1,1 +1,45 @@
 
+{
+  "name": "WelcomeBot",
+  "description": Welcome telegram not by Sumon SN. Used it full free.",
+  "keywords": [
+    "telegram",
+    "best",
+    "welcomebot",
+    "bot",
+    "Telegram",
+    "pythonbot",
+  ],
+  "success_url": "https://telegram.dog/infinitytalk",
+  "website": "https://github.com/sumonsn/",
+  "repository": "https://github.com/sumonsn",
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable VARs when in ENV mode",
+      "value": "Anything"
+    },
+    "BOTNAME": {
+      "description": "Your bot token. ",
+      "value": ""
+    },
+    "TOKEN": {
+      "description": "Enter your not token here.",
+      "value": ""
+    }
+ },
+  "addons": [
+  ],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  }, {
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
+ 
+
