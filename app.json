@@ -1,7 +1,7 @@
 
 {
   "name": "WelcomeBot",
-  "description": Welcome telegram bot by Sumon SN. Used it full free.",
+  "description": "Welcome telegram bot by Sumon SN. Used it full free.",
   "keywords": [
     "telegram",
     "best",
@@ -15,11 +15,11 @@
   "repository": "https://github.com/sumonsn",
   "env": {
     "BOTNAME": {
-      "description": "Your bot token. ",
+      "description": "Enter your bot name. ",
       "value": ""
     },
     "TOKEN": {
-      "description": "Enter your not token here.",
+      "description": "Enter your bot token here.",
       "value": ""
     }
  },
